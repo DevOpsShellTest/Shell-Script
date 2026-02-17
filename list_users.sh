@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-helper()
+helper "$@"
 
 # GitHub API URL
 API_URL="https://api.github.com"
@@ -47,6 +47,8 @@ $expected_args=2
 if [ $# -ne $expected_args]; then
 echo "please execute the  scripts  with required cmd args"
 echo "asd"
+return 1
+fe
 }
 
 # Main script
