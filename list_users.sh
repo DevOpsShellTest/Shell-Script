@@ -43,12 +43,12 @@ function list_users_with_read_access {
 
 # Function to help user with unkown syntaxes
 function helper{
-$expected_args=2
+expected_args=2
 if [ "$#" -ne "$expected_args"]; then
 echo "please execute the  scripts  with required cmd args"
 echo "asd"
 return 1
-fe
+fi
 }
 
 # Main script
